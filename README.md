@@ -6,6 +6,8 @@
 - MicroController
 - Motor driver voor te kunnen sturen
 
+## Bestellijst
+
 ## Rand info
 
 Batterij is 12v 
