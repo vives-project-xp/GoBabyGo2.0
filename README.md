@@ -32,5 +32,11 @@ De 7Pin Connector:
 - wit: aanuitknop
 - rood: aanuitknop
 
+## Motor driver
+Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
+Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
+
+![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
+
 nikita: autodementeren en bestuderen(2u), schets(1u), les(2u),bespreken project(2u), schets affiche(30min)
 
