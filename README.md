@@ -14,6 +14,7 @@
 | **Joystick**             | €14.21    | https://www.amazon.com.be/-/en/Potentiometer-JH-D202X-R2-Controller-Photography-Accessories/dp/B09J2C4DN5/ref=sr_1_3?crid=357R56FNH75R6&keywords=Joystick+potentiometer+JH-D202X-R4+10K&qid=1695624613&sprefix=joystick+potentiometer+jh-d202x-r4+10k%2Caps%2C66&sr=8-3 |
 | **DC-DC Buck Converter** | €11.88    | https://www.amazon.com.be/-/en/Hailege-Converter-1-25-36V-Adjustable-Step-down/dp/B07XRF9NWP/ref=sr_1_7?crid=1PQTSHA11MF1Q&keywords=dc+to+dc+buck+converter+adjustable&qid=1695628749&sprefix=dc+to+dc+buck+converter+adjustable%2Caps%2C71&sr=8-7                      |
 | **Optocoupler** | €7.85    | https://www.amazon.com.be/-/en/BOJACK-Optocoupler-Installation-Spacing-Package/dp/B08CXKZ98W/ref=sr_1_6?crid=1FXUJNO9624LN&keywords=optocoupler&qid=1695634939&sprefix=optocoupler%2Caps%2C69&sr=8-6                      |
+| **Connector** | €10.24    | https://www.amazon.com.be/-/en/Litorange-Female-2-54mm-JST-XH-Connector/dp/B086W9HB3M/ref=sr_1_1?crid=SXDRC5SCF07L&keywords=Picture+1+of+24+Click+to+enlarge+Have+one+to+sell%3F+Sell+it+yourself+Terminal+Board+Connectors+JST+Male+Female&qid=1695648512&s=home-improvement&sprefix=picture+1+of+24+click+to+enlarge+have+one+to+sell+sell+it+yourself+terminal+board+connectors+jst+male+female%2Chome-improvement%2C199&sr=1-1                      |
 
 ## Rand info
 
