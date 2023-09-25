@@ -35,7 +35,7 @@ De 7Pin Connector:
 ## Motor driver
 Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
 Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
-Hoe je de driver kunt gebruiken met een esp kun je vinden in het mapje "Programma's".
+Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programma's".
 
 ![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
 
