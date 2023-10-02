@@ -37,9 +37,8 @@ De 7Pin Connector:
 - rood: aanuitknop
 
 ## Joystick
-Om de auto te besturen zullen we een joystick gebruiken. De joystick die we op school hebben liggen is een digitale joystick,
-later zullen we dan meschien overschakelen naar een analoge. Hoe je de joystick kunt binnenlezen en gebruiken kun je vinden onder het 
-mapje "Programma's".
+Om de auto te besturen zullen we een joystick gebruiken. De joystick die we in het begin tot onze beschikking hebben, is digitaal. 
+In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's".
 
 Zorg er voor dat de connector links onder zit dan klopt het schema.
 
