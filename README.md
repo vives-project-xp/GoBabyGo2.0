@@ -54,5 +54,5 @@ Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programm
 - Oranje,Paars: Richting motor
 - Groen: Snelheid motor
 
-nikita: autodementeren en bestuderen(2u), schets(1u), les(2u),bespreken project(2u), schets affiche(30min)
+
 
