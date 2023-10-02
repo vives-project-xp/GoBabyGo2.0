@@ -41,6 +41,8 @@ Om de auto te besturen zullen we een joystick gebruiken. De joystick die we op s
 later zullen we dan meschien overschakelen naar een analoge. Hoe je de joystick kunt binnenlezen en gebruiken kun je vinden onder het 
 mapje "Programma's".
 
+Zorg er voor dat de connector links onder zit dan klopt het schema.
+
 ![Aansluitschema Joystick](./Img/Aansluitschema_Joystick.jpg)
 
 ## Motor driver
