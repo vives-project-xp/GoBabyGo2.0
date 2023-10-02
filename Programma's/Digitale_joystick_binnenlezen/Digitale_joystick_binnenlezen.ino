@@ -1,7 +1,7 @@
-int leftpin = 14;
-int rightpin = 12;
-int uppin = 13;
-int downpin = 4;
+int leftpin = 18;
+int rightpin = 5;
+int uppin = 19;
+int downpin = 21;
 
 int leftvalue = 0;
 int rightvalue = 0;
