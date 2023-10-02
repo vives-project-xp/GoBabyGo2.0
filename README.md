@@ -36,6 +36,13 @@ De 7Pin Connector:
 - wit: aanuitknop
 - rood: aanuitknop
 
+## Joystick
+Om de auto te besturen zullen we een joystick gebruiken. De joystick die we op school hebben liggen is een digitale joystick,
+later zullen we dan meschien overschakelen naar een analoge. Hoe je de joystick kunt binnenlezen en gebruiken kun je vinden onder het 
+mapje "Programma's".
+
+![Aansluitschema Joystick](./Img/Aansluitschema_Joystick.jpg)
+
 ## Motor driver
 Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
 Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
