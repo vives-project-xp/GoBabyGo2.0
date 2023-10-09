@@ -51,15 +51,12 @@ Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programm
 
 ![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
 
+- Oranje,Paars: Richting motor
+- Groen: Snelheid motor
+
 ## Potentiometer
 Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. een pot meter is een elektronisch component 
 dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een alanoog signaal
 genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
 
-![PotMeter](./Img/PotMeter.png) ![]
-
-- Oranje,Paars: Richting motor
-- Groen: Snelheid motor
-
-
-
+![PotMeter](./Img/PotMeter.png)
