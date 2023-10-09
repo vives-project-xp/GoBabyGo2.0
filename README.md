@@ -56,7 +56,7 @@ Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. ee
 dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een alanoog signaal
 genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
 
-![PotMeter](./Img/PotMeter.png)
+![PotMeter](./Img/PotMeter.png) ![]
 
 - Oranje,Paars: Richting motor
 - Groen: Snelheid motor
