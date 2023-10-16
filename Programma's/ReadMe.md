@@ -21,4 +21,8 @@ In Visual Studio Code moeten we nu PlatformIO downloaden. Als je links op "Exten
 |--------------|--------------|
 |![Opzoeken PlarformIO](./img/ZoekPlatformIO.png)  |![PlarformIO installeren](./img/PlatformIO.png)|
 
-Om het eindprogramma te openen, ga je naar de map 'Eindprogramma' en open je Visual Studio Code via de terminal. Dit doe je door met de rechtermuisknop te klikken in de map 'Eindprogramma' en te kiezen voor 'Openen in terminal'. Zodra je in de terminal bent, typ je "code ." en druk je op Enter. Nu kun je het programma in Visual Studio Code uploaden naar je ESP32.
+Om het eindprogramma te openen, ga je naar de map 'Eindprogramma' en open je Visual Studio Code via de terminal. Dit doe je door met de rechtermuisknop te klikken in de map 'Eindprogramma' en te kiezen voor 'Openen in terminal'. Zodra je in de terminal bent, typ je "code ." en druk je op Enter. Nu kun je het programma in Visual Studio Code uploaden naar je ESP32. De code zelf vind je in de 'src' map.
+
+| Terminal openen | visual studio code openen |
+|--------------|--------------|
+|![Terminal openen](./img/TerminalOpenen.png)  |![Code openen](./img/CodeOpenen.png)| 
