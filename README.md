@@ -62,5 +62,6 @@ dat wordt gebruikt om een variabele weerstand te creëren in een elektrische cir
 genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
 
 ![PotMeter](./Img/PotMeter.png)
+
 ##montage ideeën
 eeste concept: clips aan de zijkant van het dashboard bevestigen.
