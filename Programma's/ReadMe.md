@@ -17,7 +17,7 @@ Ons eindprogramma wordt ontwikkeld in Visual Studio Code. Om deze code naar de E
 
 In Visual Studio Code moeten we nu PlatformIO downloaden. Als je links op "Extensions" klikt symbool met de vierkantjes, kun je zoeken naar PlatformIO en het vervolgens installeren.
 
-| Afbeelding 1 | Afbeelding 2 |
+| Opzoeken PlarformIO | PlarformIO installeren |
 |--------------|--------------|
 |![Opzoeken PlarformIO](./img/ZoekPlatformIO.png)  |![PlarformIO installeren](./img/PlatformIO.png)|
 
