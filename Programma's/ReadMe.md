@@ -4,7 +4,7 @@ Om onze auto te laten rijden met behulp van een joystick, moeten we programmeren
 
 ## Voorbereiding 
 
-Om te kunnen programmeren moeten we eerst verschillende programma's downloaden. 
+Om te kunnen programmeren moeten we eerst verschillende programma's downloaden. Welke programma's je moet downloaden en hoe het werkt, kun je hieronder vinden.
 
 ### Arduino
 
