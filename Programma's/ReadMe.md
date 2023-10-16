@@ -8,8 +8,13 @@ Om te kunnen programmeren moeten we eerst verschillende programma's downloaden.
 
 ### Arduino
 
-Om onze verschillende tussenprogramma's te testen zullen we arduino nodig hebben. Dit kun je makkelijk downloaden via volgende
-[Link](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE "Arduino downloaden").
+Als je de verschillende tussenprogramma's wilt testen zul je arduino moeten downloaden. Dit kun je makkelijk downloaden via volgende
+[Link](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE "Arduino downloaden"). Arduino is een open-source elektronisch platform dat programmeerbaar is en gemakkelijk te gebruiken, zelfs voor beginners.
 
 ### Visual Studio Code
 
+Ons eindprogramma wordt ontwikkeld in Visual Studio Code. Om deze code naar de ESP32 te uploaden, maken we gebruik van PlatformIO. Visual Studio Code is eenvoudig te downloaden en te gebruiken. Je kunt het downloaden vanaf de officiële [website](https://code.visualstudio.com/download).
+
+In Visual Studio Code moeten we nu PlatformIO downloaden. Als je links op "Extensions" klikt symbool met de vierkantjes, kun je zoeken naar PlatformIO en het vervolgens installeren.
+
+![Opzoeken PlarformIO](./img/ZoekPlatformIO.png)  ![PlarformIO installeren](./img/PlatformIO.png)
