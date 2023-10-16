@@ -13,7 +13,7 @@ Als je de verschillende tussenprogramma's wilt testen zul je arduino moeten down
 
 ### Visual Studio Code
 
-Ons eindprogramma wordt ontwikkeld in Visual Studio Code. Om deze code naar de ESP32 te uploaden, maken we gebruik van PlatformIO. Visual Studio Code is eenvoudig te downloaden en te gebruiken. Je kunt het downloaden vanaf de officiële [website](https://code.visualstudio.com/download).
+Ons eindprogramma wordt ontwikkeld in Visual Studio Code, een krachtige en veelzijdige code-editor die populair is vanwege zijn gebruiksvriendelijke interface en uitbreidbare functionaliteiten. Om deze code naar de ESP32 te uploaden, maken we gebruik van PlatformIO, een handige extensie voor Visual Studio Code die specifiek is ontworpen voor het bouwen en uploaden van code naar verschillende microcontrollerplatforms. Visual Studio Code is eenvoudig te downloaden en te gebruiken, en je kunt de nieuwste versie verkrijgen vanaf de officiële [website](https://code.visualstudio.com/download).
 
 In Visual Studio Code moeten we nu PlatformIO downloaden. Als je links op "Extensions" klikt symbool met de vierkantjes, kun je zoeken naar PlatformIO en het vervolgens installeren.
 
