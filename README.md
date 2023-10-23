@@ -1,4 +1,6 @@
 # GoBabyGo2.0
+## inleiding
+Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven. We vervangen het traditionele pedaal in auto's door een joystick die via een afstandsbediening kan worden bediend. De afstandsbediening heeft voorrang op de joystick. We hebben twee concepten voor de bevestiging van de joystick aan de auto: een dashboardmontage die de joystick van links naar rechts verplaatst, en een zijkantmontage die aan beide kanten kan worden geplaatst. Het brein van de auto is een ESP die de joystickinvoer leest en de motoren aanstuurt. Omdat de positie van de voorwielen niet kan worden ingelezen met de bestaande auto hardware, gebruiken we een potentiometer om dit probleem op te lossen.
 
 ## Nodige onderdelen
 
@@ -60,3 +62,6 @@ dat wordt gebruikt om een variabele weerstand te creëren in een elektrische cir
 genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
 
 ![PotMeter](./Img/PotMeter.png)
+
+## montage ideeën
+eeste concept: clips aan de zijkant van het dashboard bevestigen.
