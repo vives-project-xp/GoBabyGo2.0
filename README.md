@@ -38,7 +38,7 @@ De 7Pin Connector:
 - wit: aanuitknop
 - rood: aanuitknop
 
-## Joystick
+## Digitale Joystick
 Om de auto te besturen zullen we een joystick gebruiken. De joystick die we in het begin tot onze beschikking hebben, is digitaal. 
 In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's".
 
