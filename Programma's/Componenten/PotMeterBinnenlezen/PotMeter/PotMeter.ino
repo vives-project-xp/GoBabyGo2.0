@@ -1,4 +1,4 @@
-const int potPin = 15;
+const int potPin = 14;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);

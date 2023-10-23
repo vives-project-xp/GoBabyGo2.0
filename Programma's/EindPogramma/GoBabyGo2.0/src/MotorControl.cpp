@@ -1,10 +1,6 @@
 #include "MotorControl.h"
 
 void MotorControl::initialize() {
-  pinMode(leftpin, INPUT_PULLUP);
-  pinMode(rightpin, INPUT_PULLUP);
-  pinMode(uppin, INPUT_PULLUP);
-  pinMode(downpin, INPUT_PULLUP);
   Serial.begin(9600);
 
   pinMode(IN1, OUTPUT);
@@ -40,20 +36,4 @@ void MotorControl::turnRight() {
   ledcWrite(channel, 255);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-}
-
-int MotorControl::getdownpin(){
-    return downpin;
-}
-
-int MotorControl::getuppin(){
-    return uppin;
-}
-
-int MotorControl::getLeftpin(){
-    return leftpin;
-}
-
-int MotorControl::getrightpin(){
-    return rightpin;
 }
