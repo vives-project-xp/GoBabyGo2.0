@@ -1,6 +1,222 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T08:39:38.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="_BitxZgSBmlnQCgkQ_bo" type="github">
-  <diagram name="Pagina-1" id="Ole5MtmNMTO0t4N5fbZh">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-11-06T10:28:41.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="en3VD8TzdXJC-Gel2TCW" version="22.0.8" type="github" pages="3">
+  <diagram name="Architectuur Mooi PCB" id="Ole5MtmNMTO0t4N5fbZh">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="setWMtpWC7QM7u4bcri6-1" value="Joystick" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="setWMtpWC7QM7u4bcri6-2" target="setWMtpWC7QM7u4bcri6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-2" value="Baby auto elektronica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-3" value="Potentiometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-4" value="Controlebord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="setWMtpWC7QM7u4bcri6-2" target="setWMtpWC7QM7u4bcri6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-3" value="BAE-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="setWMtpWC7QM7u4bcri6-5">
+          <mxGeometry x="-0.06" y="1" relative="1" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="setWMtpWC7QM7u4bcri6-3" target="setWMtpWC7QM7u4bcri6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-2" value="Pot-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="setWMtpWC7QM7u4bcri6-6">
+          <mxGeometry x="-0.11" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="setWMtpWC7QM7u4bcri6-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="setWMtpWC7QM7u4bcri6-1" target="setWMtpWC7QM7u4bcri6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-1" value="Joy-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="setWMtpWC7QM7u4bcri6-7">
+          <mxGeometry x="-0.485" y="4" relative="1" as="geometry">
+            <mxPoint x="7" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-5" value="&lt;h1&gt;Joy - Con&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;3 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Rood: 3.3V power&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Orange: pot 1 in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Paars: pot 2 in&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-6" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pot -Con&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;2 kabels:&lt;/div&gt;&lt;div&gt;- rood: 3.3V power&lt;/div&gt;&lt;div&gt;- Orange: pot 1 in&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-7" value="&lt;h1&gt;BEA - Con&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Groen links&amp;nbsp; in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Geel rechts in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Groen vooruit out&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Geel achteruit out&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-8" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-9" value="batterij" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="e1cdSSghuCX6yWNRUDmM-9" target="setWMtpWC7QM7u4bcri6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-12" value="+12V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e1cdSSghuCX6yWNRUDmM-10">
+          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="e1cdSSghuCX6yWNRUDmM-9" target="setWMtpWC7QM7u4bcri6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-13" value="+12V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="setWMtpWC7QM7u4bcri6-4" target="e1cdSSghuCX6yWNRUDmM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-15" value="Con-Mot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e1cdSSghuCX6yWNRUDmM-14">
+          <mxGeometry x="-0.11" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1cdSSghuCX6yWNRUDmM-16" value="&lt;h1&gt;Con - Mot&lt;/h1&gt;&lt;div&gt;2 kabels:&lt;/div&gt;&lt;div&gt;- groen: rechts out&lt;/div&gt;&lt;div&gt;- geel: links out&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bahcGIWF4geIoOT7QLiq-2" value="&lt;h1&gt;6 Connectors&lt;/h1&gt;&lt;div&gt;Con 1: Con - Mot&amp;nbsp;&lt;/div&gt;&lt;div&gt;screw terminal 2pin&lt;/div&gt;&lt;div&gt;pin 0: motor +&lt;/div&gt;&lt;div&gt;pin 1: motor -&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Con 2: BEA - Con 1&lt;/div&gt;&lt;div&gt;JST Con 2pin&lt;/div&gt;&lt;div&gt;pin 0: signaal vooruit&lt;/div&gt;&lt;div&gt;pin 1: signaal achteruit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 3: BEA - Con 2&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 3pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 0: signaal links&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 1: leeg&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 2: signaal rechts&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 4: Pot - Con&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 2pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 0: 3.3V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 1: Signaal Positie wielen&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 5: Joy - Con&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 4pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin0: 3.3V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin1: leeg&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin2: Signaal links-rechts&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin3: Signaal vooruit- achteruit&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 6: +12V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;screw terminal 2pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin0: +12V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin1: GND&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="180" height="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Architectuur Prototype PCB" id="bohkvrtZ_j3hdZNh9kgz">
+    <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-0" />
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-1" parent="ftrQ3smI3-PuDNbnD2ga-0" />
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-2" value="Joystick" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-4" target="ftrQ3smI3-PuDNbnD2ga-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-4" value="Baby auto elektronica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="80" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-5" value="Potentiometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="280" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-6" value="Controlebord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="280" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-4" target="ftrQ3smI3-PuDNbnD2ga-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-8" value="BAE-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-7">
+          <mxGeometry x="-0.06" y="1" relative="1" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-5" target="ftrQ3smI3-PuDNbnD2ga-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-10" value="Pot-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-9">
+          <mxGeometry x="-0.11" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-2" target="ftrQ3smI3-PuDNbnD2ga-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-12" value="Joy-Con" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-11">
+          <mxGeometry x="-0.485" y="4" relative="1" as="geometry">
+            <mxPoint x="7" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-13" value="&lt;h1&gt;Joy - Con&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;3 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Rood: 3.3V power&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Orange: pot 1 in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Paars: pot 2 in&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="480" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-14" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pot - Con&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;2 kabels:&lt;/div&gt;&lt;div&gt;- rood: 3.3V power&lt;/div&gt;&lt;div&gt;- Orange: pot 1 in&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="640" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-15" value="&lt;h1&gt;BEA - Con&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Groen links&amp;nbsp; in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Geel rechts in&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2 kabels:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Groen vooruit out&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Geel achteruit out&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="480" y="240" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-16" value="MotorDriver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="280" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-17" value="batterij" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="80" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-17" target="ftrQ3smI3-PuDNbnD2ga-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-19" value="+12V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-18">
+          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-17" target="ftrQ3smI3-PuDNbnD2ga-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-21" value="+12V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ftrQ3smI3-PuDNbnD2ga-1" source="ftrQ3smI3-PuDNbnD2ga-6" target="ftrQ3smI3-PuDNbnD2ga-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-23" value="Con-MoD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ftrQ3smI3-PuDNbnD2ga-22">
+          <mxGeometry x="-0.11" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftrQ3smI3-PuDNbnD2ga-24" value="&lt;h1&gt;Con - MoD&lt;/h1&gt;&lt;div&gt;3 kabels:&lt;/div&gt;&lt;div&gt;- groen: in1 out&lt;/div&gt;&lt;div&gt;- geel: in2 out&lt;/div&gt;&lt;div&gt;-enable: en out&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="640" y="240" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RKeqLzS1VNgUYgcnTbqq-0" value="&lt;h1&gt;6 Connectors&lt;/h1&gt;&lt;div&gt;Con 1: Con - MoD&amp;nbsp;&lt;/div&gt;&lt;div&gt;JST Con 3pin&lt;/div&gt;&lt;div&gt;pin 0: signaal enable&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pin 1: signaal in1&lt;/div&gt;&lt;div&gt;pin 2: signaal in2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Con 2: BEA - Con 1&lt;/div&gt;&lt;div&gt;JST Con 2pin&lt;/div&gt;&lt;div&gt;pin 0: signaal vooruit&lt;/div&gt;&lt;div&gt;pin 1: signaal achteruit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 3: BEA - Con 2&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 3pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 0: signaal links&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 1: leeg&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 2: signaal rechts&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 4: Pot - Con&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 2pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 0: 3.3V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin 1: Signaal Positie wielen&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Con 5: Joy - Con&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;JST Con 4pin&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin0: 3.3V&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin1: leeg&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin2: Signaal links-rechts&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;pin3: Signaal vooruit- achteruit&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Con 6: +12V/ 3.3V&lt;/div&gt;&lt;div&gt;Buck converter moet er tussen&lt;/div&gt;&lt;div&gt;screw terminal 2pin&lt;/div&gt;&lt;div&gt;pin0: +12V/3.3V&lt;/div&gt;&lt;div&gt;pin1: GND&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ftrQ3smI3-PuDNbnD2ga-1">
+          <mxGeometry x="800" y="80" width="180" height="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8d7OQqyiARroDpPeLEEs" name="Pagina-2">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
