@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T15:49:18.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="eV4SSD7v7MM7ET4JcNRn" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-06T15:51:24.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0E8wpOADPuwtygF4ezWg" version="22.0.8" type="github" pages="4">
   <diagram name="Architectuur Mooi PCB" id="Ole5MtmNMTO0t4N5fbZh">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Architectuur Prototype PCB" id="bohkvrtZ_j3hdZNh9kgz">
-    <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ftrQ3smI3-PuDNbnD2ga-0" />
         <mxCell id="ftrQ3smI3-PuDNbnD2ga-1" parent="ftrQ3smI3-PuDNbnD2ga-0" />
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8d7OQqyiARroDpPeLEEs" name="interface Baby auto elektronica">
-    <mxGraphModel dx="4200" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,10 +389,10 @@
           <mxGeometry x="255" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hdmbUSI7snQjgKX62LgG-55" value="&lt;h1&gt;Ingrijpen vooruit achteruit&lt;/h1&gt;&lt;div&gt;Om te rijden kunnen we op de bestaande pinnen signalen doorsturen.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="20" width="140" height="160" as="geometry" />
+          <mxGeometry x="220" y="566" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hdmbUSI7snQjgKX62LgG-56" value="&lt;h1&gt;Ingrijpen Sturen&lt;/h1&gt;&lt;div&gt;Dit gaat moeilijk er is geen pinnen om signaal aan te sturen.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Daarom lezen we de pinnen in en kijken en nemen die prioritair over de joystick&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="20" width="140" height="200" as="geometry" />
+          <mxGeometry x="70" y="566" width="140" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MlLUkXjgjg3-XA8uWhHj-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hdmbUSI7snQjgKX62LgG-34">
           <mxGeometry relative="1" as="geometry">
@@ -422,12 +422,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-2" value="Drukknop +&lt;br&gt;Schakelaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="490" width="80" height="76" as="geometry" />
+          <mxGeometry x="910" y="140" width="80" height="76" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="516" as="sourcePoint" />
-            <mxPoint x="90" y="516" as="targetPoint" />
+            <mxPoint x="910" y="166" as="sourcePoint" />
+            <mxPoint x="840" y="166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-5" value="Vooruit" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iYCaKTTBf4-wTW7scEeT-4">
@@ -435,26 +435,26 @@
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="546" as="sourcePoint" />
-            <mxPoint x="90" y="546" as="targetPoint" />
+            <mxPoint x="910" y="196" as="sourcePoint" />
+            <mxPoint x="840" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-8" value="Acteruit" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iYCaKTTBf4-wTW7scEeT-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-9" value="HID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="440" width="60" height="30" as="geometry" />
+          <mxGeometry x="900" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-10" value="Mechanische stuur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-11" value="Schakelaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="580" width="80" height="76" as="geometry" />
+          <mxGeometry x="910" y="230" width="80" height="76" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="617.29" as="sourcePoint" />
-            <mxPoint x="60" y="617" as="targetPoint" />
+            <mxPoint x="910" y="267.28999999999996" as="sourcePoint" />
+            <mxPoint x="810" y="267" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-13" value="Low/High Speed" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iYCaKTTBf4-wTW7scEeT-12">
@@ -463,12 +463,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-14" value="Schakelaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="670" width="80" height="76" as="geometry" />
+          <mxGeometry x="910" y="320" width="80" height="76" as="geometry" />
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="707.29" as="sourcePoint" />
-            <mxPoint x="60" y="707" as="targetPoint" />
+            <mxPoint x="910" y="357.28999999999996" as="sourcePoint" />
+            <mxPoint x="810" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iYCaKTTBf4-wTW7scEeT-16" value="aan/uit knop" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iYCaKTTBf4-wTW7scEeT-15">
