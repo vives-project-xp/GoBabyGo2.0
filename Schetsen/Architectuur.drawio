@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T15:51:24.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0E8wpOADPuwtygF4ezWg" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-06T16:13:57.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="KX6oGDJjA7YJgYM7ORtK" version="22.0.8" type="github" pages="4">
   <diagram name="Architectuur Mooi PCB" id="Ole5MtmNMTO0t4N5fbZh">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Architectuur Prototype PCB" id="bohkvrtZ_j3hdZNh9kgz">
-    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ftrQ3smI3-PuDNbnD2ga-0" />
         <mxCell id="ftrQ3smI3-PuDNbnD2ga-1" parent="ftrQ3smI3-PuDNbnD2ga-0" />
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8d7OQqyiARroDpPeLEEs" name="interface Baby auto elektronica">
-    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -679,7 +679,7 @@
         <mxCell id="Va3pk67jPYEWQ8-ygRDA-49" value="GND" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Va3pk67jPYEWQ8-ygRDA-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Va3pk67jPYEWQ8-ygRDA-50" value="microController" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Va3pk67jPYEWQ8-ygRDA-50" value="MicroController" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="350" y="464.58" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Va3pk67jPYEWQ8-ygRDA-51" value="Digital&lt;br&gt;IO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -884,7 +884,7 @@
           <mxGeometry x="800" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Va3pk67jPYEWQ8-ygRDA-110" value="Power" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="464.58" width="65" height="55.42" as="geometry" />
+          <mxGeometry x="495" y="464.58" width="35" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Va3pk67jPYEWQ8-ygRDA-112" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
