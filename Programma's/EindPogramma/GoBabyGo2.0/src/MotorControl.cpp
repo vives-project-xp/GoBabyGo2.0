@@ -37,3 +37,9 @@ void MotorControl::turnRight() {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
 }
+
+void MotorControl::turnStraight() {
+  ledcWrite(channel, 0);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+}

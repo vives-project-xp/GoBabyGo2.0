@@ -9,7 +9,7 @@ const int ypin = 4;
 int xposition;
 int yposition;
 
-MotorControl car(23, 22, 4, 13, 15, 2);
+MotorControl car(23, 22, 21, 13, 15, 19);
 
 void setup() {
   car.initialize();
@@ -31,6 +31,7 @@ void loop() {
       }
       Serial.println("Auto recht vooruit");
       car.moveForward();
+      car.turnStraight();
     } else if (xposition<100) {
       car.moveForward();
       car.turnLeft();
@@ -51,6 +52,7 @@ void loop() {
       }
       Serial.println("Auto recht achteruit");
       car.moveBackward();
+      car.turnStraight();
     } else if (xposition<500) {
       car.moveBackward();
       car.turnLeft();

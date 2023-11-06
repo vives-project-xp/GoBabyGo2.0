@@ -17,10 +17,7 @@ public:
   void stopMotor();
   void turnLeft();
   void turnRight();
-  int getLeftpin();
-  int getrightpin();
-  int getuppin();
-  int getdownpin();
+  void turnStraight();
 
 };
 
