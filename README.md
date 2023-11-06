@@ -65,3 +65,21 @@ genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen
 
 ## montage ideeën
 eeste concept: clips aan de zijkant van het dashboard bevestigen.
+
+## ESP32 Pinout
+- Driver
+In1 = GPIO23
+In2 = GPIO22
+ENA = GPIO21
+Channel= GPIO13
+
+- Huidige elektronica
+Forward= GPIO15
+Backward= GPIO19
+
+- Joyscick
+Xpin = GPIO2
+Ypin = GPIO4
+
+-PotMeter
+potPin= GPIO14
