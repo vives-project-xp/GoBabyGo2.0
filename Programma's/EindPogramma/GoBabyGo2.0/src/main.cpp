@@ -62,15 +62,25 @@ void loop() {
       car.turnRight();
       Serial.println("schuinrechts achteruit");
     }
+  } else if (yposition>100 && yposition<4000){
+      if (xposition<100) {
+        car.moveForward();
+        car.turnLeft();
+        Serial.println("Links");
+      } else if (xposition>3500) {
+        car.moveForward();
+        car.turnRight();
+        Serial.println("Rechts");
+      }
   } else {
     car.stopMotor();
-    if (PotValue < (potCenterValue - 150)) {
-      car.turnRight();
-      Serial.println("naar links");
-    } else if (PotValue > (potCenterValue + 150)) {
-      car.turnLeft();
-      Serial.println("naar rechts");
-    }
+      if (PotValue < (potCenterValue - 150)) {
+        car.turnRight();
+        Serial.println("naar links");
+      } else if (PotValue > (potCenterValue + 150)) {
+        car.turnLeft();
+        Serial.println("naar rechts");
+      }
     Serial.println("Auto staat stil");
   }
 }
