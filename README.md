@@ -40,7 +40,7 @@ De 7Pin Connector:
 
 ## Digitale Joystick
 Om de auto te besturen zullen we een joystick gebruiken. De joystick die we in het begin tot onze beschikking hebben, is digitaal. 
-In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's".
+In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's/Componenten/Digitale_joystick_binnenlezen".
 
 Zorg er voor dat de connector links onder zit dan klopt het schema.
 
@@ -63,11 +63,17 @@ genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen
 
 ![PotMeter](./Img/PotMeter.png)
 
+## DC-DC Buck Converter
+Omdat niet al onze componenten op dezelfde spanning werken gebruiken we een Buck converter. Deze zorgt er voor dat we een hogere spanning
+kunnen omzetten naar een lagere spanning. In de auto hebben we een baterij ter beschikking van 12 Volt maar onze esp heeft maar 5 volt nodig. 
+
+![BuckConverter](./Img/DC_DC_BuckConverter.jpg)
+
 ## montage ideeën
 eeste concept: clips aan de zijkant van het dashboard bevestigen.
 
 ## ESP32 Pinout
-
+Lowv
 - Driver
   - In1 = GPIO23
   - In2 = GPIO22

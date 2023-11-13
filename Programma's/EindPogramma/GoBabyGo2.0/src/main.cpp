@@ -8,8 +8,8 @@ const int xpin = 2;
 const int ypin = 4;
 int xposition;
 int yposition;
-int High=2200;
-int Low=1800;
+int High=2400;
+int Low=1600;
 
 MotorControl car(23, 22, 21, 13, 15, 19);
 
@@ -51,7 +51,7 @@ void loop() {
   } else if(xposition>High){
     car.turnLeft();
     Serial.println("Links");
-  } else if (xposition<100){
+  } else if (xposition<Low){
     car.turnRight();
     Serial.println("Rechts");
   }else {
