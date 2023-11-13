@@ -8,6 +8,8 @@ const int xpin = 2;
 const int ypin = 4;
 int xposition;
 int yposition;
+int High=2200;
+int Low=1800;
 
 MotorControl car(23, 22, 21, 13, 15, 19);
 
@@ -20,8 +22,8 @@ void loop() {
   xposition = analogRead(xpin);
   yposition = analogRead(ypin);
 
-  if (yposition > 4000) {
-    if (xposition<4000 && xposition>100) {
+  if (yposition > High) {
+    if (xposition<High && xposition>Low) {
       if (PotValue < (potCenterValue - 150)) {
         car.turnRight();
         Serial.println("naar links");
@@ -29,20 +31,12 @@ void loop() {
         car.turnLeft();
         Serial.println("naar rechts");
       }
-      Serial.println("Auto recht vooruit");
-      car.moveForward();
-      car.turnStraight();
-    } else if (xposition<100) {
-      car.moveForward();
-      car.turnLeft();
-      Serial.println("Shuinlinks Vooruit");
-    } else if (xposition>3500) {
-      car.moveForward();
-      car.turnRight();
-      Serial.println("schuinrechts Vooruit");
     }
-  } else if (yposition<100) {
-    if (xposition<4000 && xposition>100) {
+    Serial.println("Vooruit");
+    car.moveForward();
+    car.turnStraight();
+  } else if (yposition<Low) {
+    if (xposition<High && xposition>Low) {
       if (PotValue < (potCenterValue - 150)) {
         car.turnRight();
         Serial.println("naar links");
@@ -50,29 +44,17 @@ void loop() {
         car.turnLeft();
         Serial.println("naar rechts");
       }
-      Serial.println("Auto recht achteruit");
-      car.moveBackward();
-      car.turnStraight();
-    } else if (xposition<500) {
-      car.moveBackward();
-      car.turnLeft();
-      Serial.println("Shuinlinks achteruit");
-    } else if (yposition<100) {
-      car.moveBackward();
-      car.turnRight();
-      Serial.println("schuinrechts achteruit");
     }
-  } else if (yposition>100 && yposition<4000){
-      if (xposition<100) {
-        car.moveForward();
-        car.turnLeft();
-        Serial.println("Links");
-      } else if (xposition>3500) {
-        car.moveForward();
-        car.turnRight();
-        Serial.println("Rechts");
-      }
-  } else {
+    Serial.println("Achteruit");
+    car.moveBackward();
+    car.turnStraight();
+  } else if(xposition>High){
+    car.turnLeft();
+    Serial.println("Links");
+  } else if (xposition<100){
+    car.turnRight();
+    Serial.println("Rechts");
+  }else {
     car.stopMotor();
       if (PotValue < (potCenterValue - 150)) {
         car.turnRight();
