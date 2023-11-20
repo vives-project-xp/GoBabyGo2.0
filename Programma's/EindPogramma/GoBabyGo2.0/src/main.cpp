@@ -17,6 +17,7 @@ void setup() {
 }
 
 void loop() {
+  //binnenhalen van de waarden van de potmeter en de joystick
   int PotValue = analogRead(potPin);
   xposition = analogRead(xpin);
   yposition = analogRead(ypin);
@@ -39,7 +40,7 @@ void loop() {
   }
 
   //sturen dit kan allemaal in commentaar omdat je de adjustWheelPosition functie gebruikt 
-  //maar ik laat dit staan om nu nog te testen zonder de potmeter
+  //maar ik laat dit staan omdat het systeem met de potmeter niet werkt
   if (xposition > High) {
     car.turnLeft();
     Serial.println("Links");
@@ -52,6 +53,8 @@ void loop() {
   }
 }
 
+//deze functie zorgt er voor dat de wielen van de automatisch worden gepositioneerd afgankelijk van de positie van de 
+//xcoordinaat van de joystick en de potmeter
 void adjustWheelPosition(int xposition, int potvalue) {
   int draaiHoek = xposition - potvalue;
 
