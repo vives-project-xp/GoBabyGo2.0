@@ -23,8 +23,7 @@ void loop() {
 
   //Dit regelt de positie van het stuurwiel maar zetten we voorlopig in commentaar omdat we de potmeter niet gebruiken
   // if (PotValue != xposition) {
-  //   PotValue = xposition;
-  //   adjustWheelPosition(xposition);
+  //   adjustWheelPosition(xposition,potValue);
   // }
 
   //snelheid
@@ -53,14 +52,13 @@ void loop() {
   }
 }
 
-void adjustWheelPosition(int xposition) {
-  int midpoint = 2048;
-  int draaiHoek = xposition - midpoint;
+void adjustWheelPosition(int xposition, int potvalue) {
+  int draaiHoek = xposition - potvalue;
 
-  if (draaiHoek > 0) {
+  if (draaiHoek > 200) {
     // Draai naar rechts
     car.turnRight();
-  } else if (draaiHoek < 0) {
+  } else if (draaiHoek < 200) {
     // Draai naar links
     car.turnLeft();
   } else {
