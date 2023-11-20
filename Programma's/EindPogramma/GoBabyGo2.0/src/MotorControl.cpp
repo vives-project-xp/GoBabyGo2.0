@@ -22,8 +22,8 @@ void MotorControl::moveBackward() {
 }
 
 void MotorControl::stopMotor() {
-  digitalWrite(forward, LOW);
-  digitalWrite(backwards, LOW);
+  digitalWrite(forward, HIGH);
+  digitalWrite(backwards, HIGH);
 }
 
 void MotorControl::turnLeft() {
