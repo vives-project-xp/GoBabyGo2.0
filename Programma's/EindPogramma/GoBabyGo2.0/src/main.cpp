@@ -22,47 +22,28 @@ void loop() {
   xposition = analogRead(xpin);
   yposition = analogRead(ypin);
 
+  //snelheid
   if (yposition > High) {
-    if (xposition<High && xposition>Low) {
-      if (PotValue < (potCenterValue - 150)) {
-        car.turnRight();
-        Serial.println("naar links");
-      } else if (PotValue > (potCenterValue + 150)) {
-        car.turnLeft();
-        Serial.println("naar rechts");
-      }
-    }
     Serial.println("Vooruit");
     car.moveForward();
-    car.turnStraight();
-  } else if (yposition<Low) {
-    if (xposition<High && xposition>Low) {
-      if (PotValue < (potCenterValue - 150)) {
-        car.turnRight();
-        Serial.println("naar links");
-      } else if (PotValue > (potCenterValue + 150)) {
-        car.turnLeft();
-        Serial.println("naar rechts");
-      }
-    }
+  } else if (yposition < Low) {
     Serial.println("Achteruit");
     car.moveBackward();
-    car.turnStraight();
-  } else if(xposition>High){
-    car.turnLeft();
-    Serial.println("Links");
-  } else if (xposition<Low){
-    car.turnRight();
-    Serial.println("Rechts");
   }else {
     car.stopMotor();
-      if (PotValue < (potCenterValue - 150)) {
-        car.turnRight();
-        Serial.println("naar links");
-      } else if (PotValue > (potCenterValue + 150)) {
-        car.turnLeft();
-        Serial.println("naar rechts");
-      }
     Serial.println("Auto staat stil");
   }
+
+  //sturen 
+  if (xposition > High) {
+    car.turnLeft();
+    Serial.println("Links");
+  } else if (xposition < Low) {
+    car.turnRight();
+    Serial.println("Rechts");
+  } else {
+    car.turnStraight();
+    Serial.println("Auto staat stil");
+  }
+
 }

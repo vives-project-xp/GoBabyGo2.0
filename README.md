@@ -1,4 +1,18 @@
 # GoBabyGo2.0
+
+# Inhoudsopgave
+1. [Inleiding](#inleiding)
+2. [Nodige Onderdelen](#nodige-onderdelen)
+3. [BOMlijst](#bomlijst)
+4. [Rand Info](#rand-info)
+5. [Digitale Joystick](#digitale-joystick)
+6. [Analoge Joystick](#analoge-joystick)
+7. [Motor Driver](#motor-driver)
+8. [Potentiometer](#potentiometer)
+9. [DC-DC Buck Converter](#dc-dc-buck-converter)
+10. [Montage Ideeën](#montage-ideeën)
+11. [ESP32 Pinout](#esp32-pinout)
+
 ## inleiding
 Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven. We vervangen het traditionele pedaal in auto's door een joystick die via een afstandsbediening kan worden bediend. De afstandsbediening heeft voorrang op de joystick. We hebben twee concepten voor de bevestiging van de joystick aan de auto: een dashboardmontage die de joystick van links naar rechts verplaatst, en een zijkantmontage die aan beide kanten kan worden geplaatst. Het brein van de auto is een ESP die de joystickinvoer leest en de motoren aanstuurt. Omdat de positie van de voorwielen niet kan worden ingelezen met de bestaande auto hardware, gebruiken we een potentiometer om dit probleem op te lossen.
 
@@ -45,6 +59,11 @@ In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick
 Zorg er voor dat de connector links onder zit dan klopt het schema.
 
 ![Aansluitschema Joystick](./Img/Aansluitschema_Joystick.jpg)
+
+## Analoge Joystick
+Na het gebruik van een digitale joystick stappen we nu over naar een analoge variant voor het besturen van de auto. Een analoge joystick maakt gebruik van variabele weerstand, waardoor we een vloeiendere en nauwkeurigere stuurinvoer kunnen realiseren. Ons eindprogramma zal dan ook ontwikkeld worden met een analoge joystick. We hebben echter geen tussen programma's voor de analoge joystick, omdat we deze al hebben gemaakt voor de digitale variant. Het zou overbodig zijn om dit proces opnieuw uit te voeren voor de analoge joystick.
+
+![Analoge Joystick](./Img/Analoge_Joystick.png)
 
 ## Motor driver
 Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
