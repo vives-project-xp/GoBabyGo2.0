@@ -1,8 +1,11 @@
 #include "MotorControl.h"
 
+//Function definitions
 void MotorControl::initialize() {
+  //Initialize serial communication
   Serial.begin(9600);
 
+  //Initialize pins
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   ledcSetup(channel, 5000, 8);
@@ -11,6 +14,8 @@ void MotorControl::initialize() {
   pinMode(forward, OUTPUT);
   pinMode(backwards, OUTPUT);
 }
+
+//Functions for controlling the car
 void MotorControl::moveForward() {
   digitalWrite(forward, HIGH);
   digitalWrite(backwards, LOW);
