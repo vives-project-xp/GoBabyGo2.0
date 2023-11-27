@@ -63,7 +63,15 @@ Zorg er voor dat de connector links onder zit dan klopt het schema.
 ![Aansluitschema Joystick](./Img/Aansluitschema_Joystick.jpg)
 
 ## Analoge Joystick
-Na het gebruik van een digitale joystick stappen we nu over naar een analoge variant voor het besturen van de auto. Een analoge joystick maakt gebruik van variabele weerstand, waardoor we een vloeiendere en nauwkeurigere stuurinvoer kunnen realiseren. Ons eindprogramma zal dan ook ontwikkeld worden met een analoge joystick. We hebben echter geen tussen programma's voor de analoge joystick, omdat we deze al hebben gemaakt voor de digitale variant. Het zou overbodig zijn om dit proces opnieuw uit te voeren voor de analoge joystick.
+Na het gebruik van een digitale joystick stappen we nu over naar een analoge variant voor het besturen van de auto. Een analoge
+joystick maakt gebruik van variabele weerstand, waardoor we een vloeiendere en nauwkeurigere stuurinvoer kunnen realiseren. Ons
+eindprogramma zal dan ook ontwikkeld worden met een analoge joystick. We hebben echter geen tussen programma's voor de analoge
+joystick, omdat we deze al hebben gemaakt voor de digitale variant. Het zou overbodig zijn om dit proces opnieuw uit te voeren voor
+de analoge joystick.
+
+Een analoge joystick heeft twee potmeters. De beweging van de joystick zorgt voor variabele weerstand. Elke potmeter vertegenwoordigt
+een richting: vooruit en achteruit (y-as) en links en rechts (x-as). Deze weerstanden worden omgezet in elektrische signalen, die
+vervolgens worden gebruikt om de auto aan te sturen.
 
 ![Analoge Joystick](./Img/Analoge_Joystick.png)
 
@@ -78,8 +86,8 @@ Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programm
 - Groen: Snelheid motor
 
 ## Potentiometer
-Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. een pot meter is een elektronisch component 
-dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een alanoog signaal
+Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. Een pot meter is een elektronisch component 
+dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een analoog signaal
 genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
 
 ![PotMeter](./Img/PotMeter.png)
@@ -94,7 +102,6 @@ kunnen omzetten naar een lagere spanning. In de auto hebben we een baterij ter b
 De joystick mag niet te veel plaats in nemen in de auto. De joystick zit in een ge3dprinte box die bevestigt is aan een pvc buis. We hebben gekozen voor een pvc buis omdat die licht id en we kunnen de bekabeling hierin verstoppen. We 2 condepten om de joystick te monteren op de auto. Bij het eerste condept is de buis bevestigt aan het dashboard. Voor het tweede concept word de buis bij de deur gemonteert. Bij biede concepten kan de joystick links of rechts geplaatst worden volgen de mobiliteit van het kind. We monteren de buizen mat clips aan de auto.
 
 ## ESP32 Pinout
-Lowv
 - Driver
   - In1 = GPIO23
   - In2 = GPIO22
