@@ -21,6 +21,8 @@ Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven.
 - Auto
 - MicroController
 - Motor driver voor te kunnen sturen
+- Joystick
+- DC-DC Converter
 
 ## BOMlijst
 | **Onderdeel**            | **Prijs** | **Link**                                                                                                                                                                                                                                                                |
