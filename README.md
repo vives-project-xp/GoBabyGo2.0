@@ -99,7 +99,11 @@ kunnen omzetten naar een lagere spanning. In de auto hebben we een baterij ter b
 ![BuckConverter](./Img/DC_DC_BuckConverter.jpg)
 
 ## montage ideeën
-De joystick mag niet te veel plaats in nemen in de auto. De joystick zit in een ge3dprinte box die bevestigt is aan een pvc buis. We hebben gekozen voor een pvc buis omdat die licht id en we kunnen de bekabeling hierin verstoppen. We 2 condepten om de joystick te monteren op de auto. Bij het eerste condept is de buis bevestigt aan het dashboard. Voor het tweede concept word de buis bij de deur gemonteert. Bij biede concepten kan de joystick links of rechts geplaatst worden volgen de mobiliteit van het kind. We monteren de buizen mat clips aan de auto.
+De joystick mag niet te veel ruimte innemen in de auto. Deze is geplaatst in een 3D-geprinte behuizing die aan een PVC-buis is bevestigd. We hebben voor een PVC-buis gekozen vanwege het lichte gewicht en de
+mogelijkheid om de bekabeling erin te verbergen. We hebben twee concepten ontwikkeld voor het monteren van de joystick in de auto. Bij het eerste concept is de buis bevestigd aan het dashboard. Voor het tweede
+concept wordt de buis aan de deur gemonteerd. In beide concepten kan de joystick links of rechts worden geplaatst, afhankelijk van de mobiliteit van het kind. We bevestigen de buizen met clips aan de auto.
+
+![joystickbox](./Img/montage_3D.jpg)
 
 ## ESP32 Pinout
 - Driver
@@ -111,7 +115,6 @@ De joystick mag niet te veel plaats in nemen in de auto. De joystick zit in een 
 - Huidige elektronica
   - Forward = GPIO15
   - Backward = GPIO19
-
 - Joystick
   - Xpin = GPIO2
   - Ypin = GPIO4
