@@ -13,7 +13,7 @@
 10. [Montage Ideeën](#montage-ideeën)
 11. [ESP32 Pinout](#esp32-pinout)
 
-Alle info over het installeren van nodige programma's om te kunnen programmeren staat in het mapje programma's
+Alle info over het installeren van nodige programma's om te kunnen programmeren staat in het mapje [Programma's](./programma's)
 
 ## inleiding
 Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven. We vervangen het traditionele pedaal in auto's door een joystick die via een afstandsbediening kan worden bediend. De afstandsbediening heeft voorrang op de joystick. We hebben twee concepten voor de bevestiging van de joystick aan de auto: een dashboardmontage die de joystick van links naar rechts verplaatst, en een zijkantmontage die aan beide kanten kan worden geplaatst. Het brein van de auto is een ESP die de joystickinvoer leest en de motoren aanstuurt. Omdat de positie van de voorwielen niet kan worden ingelezen met de bestaande auto hardware, gebruiken we een potentiometer om dit probleem op te lossen.
