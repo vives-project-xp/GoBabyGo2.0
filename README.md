@@ -82,6 +82,11 @@ Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wo
 Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
 Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje [Programma's](./Programma's).
 
+De L298N is een motorcontroller-IC dat vaak wordt gebruikt in elektronische projecten. Het maakt gebruik van een H-brug-configuratie, waardoor het mogelijk is om
+gelijkstroommotoren in beide richtingen aan te sturen. Met twee onafhankelijke kanalen is het geschikt voor het afzonderlijk aansturen van twee motoren, zoals bij
+robotica wij gebruiker hier maar 1 van. Het ondersteunt een breed spanningsbereik en wordt gecontroleerd met logische signalen van bijvoorbeeld een microcontroller
+zoals Arduino.
+
 ![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
 
 - Oranje,Paars: Richting motor
