@@ -58,7 +58,7 @@ De 7Pin Connector:
 
 ## Digitale Joystick
 Om de auto te besturen zullen we een joystick gebruiken. De joystick die we in het begin tot onze beschikking hebben, is digitaal. 
-In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's/Componenten/Digitale_joystick_binnenlezen".
+In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje [Programma's](./Programma's).
 
 Zorg er voor dat de connector links onder zit dan klopt het schema.
 
@@ -80,7 +80,7 @@ vervolgens worden gebruikt om de auto aan te sturen.
 ## Motor driver
 Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
 Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
-Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programma's".
+Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje [Programma's](./Programma's).
 
 ![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
 
