@@ -93,15 +93,20 @@ zoals Arduino.
 - Groen: Snelheid motor
 
 ## Potentiometer
-Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. Een pot meter is een elektronisch component 
-dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een analoog signaal
-genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
+Om de positie van onze wielen vast te stellen, maken we gebruik van een potentiometer. Een potentiometer, kortweg pot meter, is een elektronisch component dat wordt
+ingezet om een variabele weerstand te creëren in een elektrisch circuit. In ons geval genereren we een analoog signaal op basis van deze weerstandswaarden, waarmee we
+de positie van het stuur kunnen bepalen. Concreet wordt de potentiometer aan de stang bevestigd, die op zijn beurt is gekoppeld aan de wielen van de auto. Wanneer de
+wielen van positie veranderen, wijzigt ook de positie van de potentiometer, waardoor we nauwkeurig de positie van de wielen kunnen achterhalen.
 
 ![PotMeter](./Img/PotMeter.png)
 
 ## DC-DC Buck Converter
 Omdat niet al onze componenten op dezelfde spanning werken gebruiken we een Buck converter. Deze zorgt er voor dat we een hogere spanning
 kunnen omzetten naar een lagere spanning. In de auto hebben we een baterij ter beschikking van 12 Volt maar onze esp heeft maar 5 volt nodig. 
+
+Een DC-DC buck converter is een elektronisch apparaat dat de ingangsspanning van een gelijkstroombron verlaagt naar een lagere uitgangsspanning. Het werkt als een
+efficiënte schakelende regelaar met behulp van componenten zoals transistors en een spoel (inductor). Deze converters worden veel gebruikt in elektronische apparaten om
+de benodigde lagere spanning te leveren, zoals in batterijgevoede apparaten en voedingen voor microcontrollers.
 
 ![BuckConverter](./Img/DC_DC_BuckConverter.jpg)
 
