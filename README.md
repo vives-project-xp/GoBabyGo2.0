@@ -34,7 +34,7 @@ Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven.
 | **Optocoupler** | €7.85    | https://www.amazon.com.be/-/en/BOJACK-Optocoupler-Installation-Spacing-Package/dp/B08CXKZ98W/ref=sr_1_6?crid=1FXUJNO9624LN&keywords=optocoupler&qid=1695634939&sprefix=optocoupler%2Caps%2C69&sr=8-6                      |
 | **Connector PCB-Kabels** | €10.24    | https://www.amazon.com.be/-/en/Litorange-Female-2-54mm-JST-XH-Connector/dp/B086W9HB3M/ref=sr_1_1?crid=SXDRC5SCF07L&keywords=Picture+1+of+24+Click+to+enlarge+Have+one+to+sell%3F+Sell+it+yourself+Terminal+Board+Connectors+JST+Male+Female&qid=1695648512&s=home-improvement&sprefix=picture+1+of+24+click+to+enlarge+have+one+to+sell+sell+it+yourself+terminal+board+connectors+jst+male+female%2Chome-improvement%2C199&sr=1-1                      |
 | **Connector kabels-kabels** | €13.99    | https://www.amazon.com.be/-/en/HSeaMall-Connector-Female-Housing-Assortment/dp/B0716WZ6RW/ref=sr_1_12?crid=3B4MFSYF52HO6&keywords=JST+conector+set&qid=1696247641&s=home-improvement&sprefix=jst+conector+set%2Chome-improvement%2C66&sr=1-12                     |
-| **poteentiometer** | €9.11    | https://www.amazon.com.be/-/en/Potentiometer-Rotating-Automotive-Electronics-Multimedia/dp/B09BJMFVMZ/ref=sr_1_11?crid=3GKNUFMRX9EJO&keywords=potentiometer+10k&qid=1696248212&s=home-improvement&sprefix=potentiometer+10k%2Chome-improvement%2C259&sr=1-11                      |
+| **potentiometer** | €9.11    | https://www.amazon.com.be/-/en/Potentiometer-Rotating-Automotive-Electronics-Multimedia/dp/B09BJMFVMZ/ref=sr_1_11?crid=3GKNUFMRX9EJO&keywords=potentiometer+10k&qid=1696248212&s=home-improvement&sprefix=potentiometer+10k%2Chome-improvement%2C259&sr=1-11                      |
 
 
 ## Rand info
