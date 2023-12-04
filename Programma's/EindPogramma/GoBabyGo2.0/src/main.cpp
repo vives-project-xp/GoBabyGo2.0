@@ -29,11 +29,11 @@ void loop() {
 
   //snelheid
   if (yposition > High) {
-    Serial.println("Vooruit");
-    car.moveForward();
-  } else if (yposition < Low) {
     Serial.println("Achteruit");
     car.moveBackward();
+  } else if (yposition < Low) {
+    Serial.println("Vooruit");
+    car.moveForward();
   }else {
     car.stopMotor();
     Serial.println("Auto staat stil");
