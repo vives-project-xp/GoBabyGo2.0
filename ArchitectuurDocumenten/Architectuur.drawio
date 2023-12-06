@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:46:06.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4zk2zEciw0x5tLO99zFD" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-06T07:55:42.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ujDYYsmZZ4d2EocN-aTc" version="22.1.5" type="github" pages="7">
   <diagram name="Architectuur Mooi PCB" id="Ole5MtmNMTO0t4N5fbZh">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8d7OQqyiARroDpPeLEEs" name="interface Baby auto elektronica">
-    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1000,7 +1000,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N6T9I_FlWRJc2hzYl9Ty" name="blok diagram huidig architectuur">
-    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1085,9 +1085,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWF87lg4dJvMjG_0S55l-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="MWF87lg4dJvMjG_0S55l-10" target="MWF87lg4dJvMjG_0S55l-21" edge="1">
+        <mxCell id="MWF87lg4dJvMjG_0S55l-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="MWF87lg4dJvMjG_0S55l-1" target="MWF87lg4dJvMjG_0S55l-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="sourcePoint" />
             <mxPoint x="585" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1108,6 +1108,146 @@
             <mxPoint x="535" y="450" as="sourcePoint" />
             <mxPoint x="585" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YEEkcgd2EaVNfPEuZGRz-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="MWF87lg4dJvMjG_0S55l-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="blokdiagram huidig architectuur met connectoren" id="mgkCCexRfETShe4jpzPs">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-0" />
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-1" parent="ctrPjSjECLCSRCdPTcUX-0" />
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="370" y="220" width="360" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-3" value="Motor Sturing&lt;br&gt;Draaien" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="585" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-4" value="Motor Sturing&lt;br&gt;Vooruit/achteruit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="585" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-5" value="Radio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-8" target="ctrPjSjECLCSRCdPTcUX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="sourcePoint" />
+            <mxPoint x="485" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-5" target="ctrPjSjECLCSRCdPTcUX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="321.0000000000001" as="sourcePoint" />
+            <mxPoint x="800" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-8" value="2.4GHz" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="430" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-9" value="Gas&lt;br&gt;Drukknop + Schakelaar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="339.38" as="sourcePoint" />
+            <mxPoint x="585" y="339.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-11" value="Motor&lt;br&gt;Achterwielen aandrijving" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="840" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="339.23" as="sourcePoint" />
+            <mxPoint x="840" y="339.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-13" value="Motor&lt;br&gt;Voorwielen Draaien" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="840" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-3" target="ctrPjSjECLCSRCdPTcUX-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-15" value="Remote Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="70" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-15" target="ctrPjSjECLCSRCdPTcUX-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-17" value="2.4GHz" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="220" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-18" value="Mechanische Stuur" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="70" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-18" target="ctrPjSjECLCSRCdPTcUX-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="80" as="sourcePoint" />
+            <mxPoint x="920" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-2" target="ctrPjSjECLCSRCdPTcUX-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="585" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="455" y="335" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-5" target="ctrPjSjECLCSRCdPTcUX-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="sourcePoint" />
+            <mxPoint x="580" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-23" value="12V Batterij" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="490" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-23" target="ctrPjSjECLCSRCdPTcUX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="450" as="sourcePoint" />
+            <mxPoint x="585" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctrPjSjECLCSRCdPTcUX-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="ctrPjSjECLCSRCdPTcUX-1" source="ctrPjSjECLCSRCdPTcUX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8aqq5RtYunrJRfL37P8-0" value="connectoren aan duiden en diffineren&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="110" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8aqq5RtYunrJRfL37P8-1" value="Con&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="370" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8aqq5RtYunrJRfL37P8-2" value="Con&lt;br&gt;2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="512.5" y="350" width="75" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="N8aqq5RtYunrJRfL37P8-3" value="Con&lt;br&gt;4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="730" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8aqq5RtYunrJRfL37P8-4" value="Con&lt;br&gt;3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ctrPjSjECLCSRCdPTcUX-1">
+          <mxGeometry x="730" y="230" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
