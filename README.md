@@ -13,6 +13,8 @@
 10. [Montage Ideeën](#montage-ideeën)
 11. [ESP32 Pinout](#esp32-pinout)
 
+Alle info over het installeren van nodige programma's om te kunnen programmeren staat in het mapje [Programma's](./Programma's)
+
 ## inleiding
 Ons doel is om kinderen met beperkte mobiliteit meer bewegingsvrijheid te geven. We vervangen het traditionele pedaal in auto's door een joystick die via een afstandsbediening kan worden bediend. De afstandsbediening heeft voorrang op de joystick. We hebben twee concepten voor de bevestiging van de joystick aan de auto: een dashboardmontage die de joystick van links naar rechts verplaatst, en een zijkantmontage die aan beide kanten kan worden geplaatst. Het brein van de auto is een ESP die de joystickinvoer leest en de motoren aanstuurt. Omdat de positie van de voorwielen niet kan worden ingelezen met de bestaande auto hardware, gebruiken we een potentiometer om dit probleem op te lossen.
 
@@ -56,7 +58,7 @@ De 7Pin Connector:
 
 ## Digitale Joystick
 Om de auto te besturen zullen we een joystick gebruiken. De joystick die we in het begin tot onze beschikking hebben, is digitaal. 
-In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje "Programma's/Componenten/Digitale_joystick_binnenlezen".
+In de toekomst overwegen we mogelijk over te schakelen naar een analoge joystick. Hoe je de joystick kunt binnenlezen kun je vinden onder het mapje [Programma's](./Programma's).
 
 Zorg er voor dat de connector links onder zit dan klopt het schema.
 
@@ -78,7 +80,12 @@ vervolgens worden gebruikt om de auto aan te sturen.
 ## Motor driver
 Om de richting te bepalen van de auto gebruiken we een motortje. Dit motortje wordt aangestuurd a.d.h.v een driver. 
 Via deze driver kunnen we de richting en de snelheid van de motor bepalen. De driver die wij gebruiken is de L298N.
-Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programma's".
+Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje [Programma's](./Programma's).
+
+De L298N is een motorcontroller-IC dat vaak wordt gebruikt in elektronische projecten. Het maakt gebruik van een H-brug-configuratie, waardoor het mogelijk is om
+gelijkstroommotoren in beide richtingen aan te sturen. Met twee onafhankelijke kanalen is het geschikt voor het afzonderlijk aansturen van twee motoren, zoals bij
+robotica wij gebruiker hier maar 1 van. Het ondersteunt een breed spanningsbereik en wordt gecontroleerd met logische signalen van bijvoorbeeld een microcontroller
+zoals Arduino.
 
 ![Aansluitschema Driver](./Img/Aansluitschema%20L298N%20H-brug.jpg) 
 
@@ -86,15 +93,20 @@ Hoe je de driver kunt gebruiken met een ESP kun je vinden in het mapje "Programm
 - Groen: Snelheid motor
 
 ## Potentiometer
-Om de positie van onze wielen te bepalen gaan we een potentiometer gebruiken. Een pot meter is een elektronisch component 
-dat wordt gebruikt om een variabele weerstand te creëren in een elektrische circuit. In ons geval zullen we een analoog signaal
-genereren aan de hand van die waarden kunnen we de positie van het stuur bepalen.
+Om de positie van onze wielen vast te stellen, maken we gebruik van een potentiometer. Een potentiometer, kortweg pot meter, is een elektronisch component dat wordt
+ingezet om een variabele weerstand te creëren in een elektrisch circuit. In ons geval genereren we een analoog signaal op basis van deze weerstandswaarden, waarmee we
+de positie van het stuur kunnen bepalen. Concreet wordt de potentiometer aan de stang bevestigd, die op zijn beurt is gekoppeld aan de wielen van de auto. Wanneer de
+wielen van positie veranderen, wijzigt ook de positie van de potentiometer, waardoor we nauwkeurig de positie van de wielen kunnen achterhalen.
 
 ![PotMeter](./Img/PotMeter.png)
 
 ## DC-DC Buck Converter
 Omdat niet al onze componenten op dezelfde spanning werken gebruiken we een Buck converter. Deze zorgt er voor dat we een hogere spanning
 kunnen omzetten naar een lagere spanning. In de auto hebben we een baterij ter beschikking van 12 Volt maar onze esp heeft maar 5 volt nodig. 
+
+Een DC-DC buck converter is een elektronisch apparaat dat de ingangsspanning van een gelijkstroombron verlaagt naar een lagere uitgangsspanning. Het werkt als een
+efficiënte schakelende regelaar met behulp van componenten zoals transistors en een spoel (inductor). Deze converters worden veel gebruikt in elektronische apparaten om
+de benodigde lagere spanning te leveren, zoals in batterijgevoede apparaten en voedingen voor microcontrollers.
 
 ![BuckConverter](./Img/DC_DC_BuckConverter.jpg)
 
