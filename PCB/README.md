@@ -34,4 +34,13 @@ Zie architectuur documenten om te zien wat we willen berijken. </br>
 - ESP32 Devkit: Dit hebben we liggen en het is dan gemakelijker om een pcb te maken. Moet geen rekening houden met de USB -> UART interface en we hebben dan geen 3.3V LDO meer nodig dan.
 - Voltage regulator: we hebben 5V nodig voor de ESP en de MotorDriver te logica te voeden.
 
-## Elektrische schema
+## Elektrisch schema
+
+![Elektrisch schema](../Img/ElektrischSchema.png)
+
+## PCB layout
+
+![PCBVoor](../Img/PCBVoor.png)
+
+![PCBAchter](../Img/PCBAchter.png)
+

@@ -117,6 +117,18 @@ concept wordt de buis aan de deur gemonteerd. In beide concepten kan de joystick
 
 ![joystickbox](./Img/montage_3D.jpg)
 
+## PCB
+
+### Inleiding
+
+Meer info staat in de PCB directory.
+
+### PCB layout
+
+![PCBVoor](./Img/PCBVoor.png)
+
+![PCBAchter](./Img/PCBAchter.png)
+
 ## ESP32 Pinout
 - Driver
   - In1 = GPIO23
