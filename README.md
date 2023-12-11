@@ -11,7 +11,8 @@
 8. [Potentiometer](#potentiometer)
 9. [DC-DC Buck Converter](#dc-dc-buck-converter)
 10. [Montage Ideeën](#montage-ideeën)
-11. [ESP32 Pinout](#esp32-pinout)
+11. [PCB](#PCB)
+12. [ESP32 Pinout](#esp32-pinout)
 
 Alle info over het installeren van nodige programma's om te kunnen programmeren staat in het mapje [Programma's](./Programma's)
 
