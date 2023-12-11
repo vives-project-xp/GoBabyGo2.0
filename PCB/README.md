@@ -48,3 +48,7 @@ Zie architectuur documenten om te zien wat we willen berijken. </br>
 
 ![PCBAchter](../Img/PCBAchter.png)
 
+## Bekabeling
+
+![PrototypePCB](../Img/PrototypePCB.jpg)
+
