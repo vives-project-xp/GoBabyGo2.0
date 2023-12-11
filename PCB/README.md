@@ -4,6 +4,10 @@
 
 Ideal zouden we een PCB kunnen maken. Hier een korte aanzet om er aan te starten.
 
+## Project files
+
+De files zijn de archive en de .lbr.
+
 ## componenten
 
 ### Connectoren
