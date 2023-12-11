@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T15:51:45.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Hkh7p8Qec5DefgWv63-5" version="22.1.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-12-11T15:54:04.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SsmxRh6OENBkSyKqtnoV" version="22.1.7" type="github" pages="8">
   <diagram name="Architectuur Mooi PCB" id="Ole5MtmNMTO0t4N5fbZh">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1927,15 +1927,18 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Blokdiagram nieuw architectuur met connectoren" id="ZhgXO8mMj5Lxc2FdaKnj">
-    <mxGraphModel dx="467" dy="252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="420" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="eOArgVNhv34Nyx51szAZ-0" />
         <mxCell id="eOArgVNhv34Nyx51szAZ-1" parent="eOArgVNhv34Nyx51szAZ-0" />
+        <mxCell id="mQ2n6NA9lhZwBmOUlgZ0-22" value="Motor Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
+          <mxGeometry x="780" y="180" width="40" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="eOArgVNhv34Nyx51szAZ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
           <mxGeometry x="30" y="540" width="210" height="220" as="geometry" />
         </mxCell>
         <mxCell id="eOArgVNhv34Nyx51szAZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
-          <mxGeometry x="510" y="481" width="360" height="139" as="geometry" />
+          <mxGeometry x="510" y="481" width="390" height="139" as="geometry" />
         </mxCell>
         <mxCell id="eOArgVNhv34Nyx51szAZ-4" value="Motor Sturing&lt;br&gt;Draaien" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
           <mxGeometry x="725" y="490" width="120" height="50" as="geometry" />
@@ -2332,7 +2335,7 @@
           <mxGeometry x="996" y="456" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O7-spMWagOyYHg0VHWT4-0" value="MicroController&lt;br&gt;12V-&amp;gt;5V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
-          <mxGeometry x="650" y="210" width="90" height="60" as="geometry" />
+          <mxGeometry x="620" y="180" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="O7-spMWagOyYHg0VHWT4-4" value="Con&lt;br&gt;J2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
           <mxGeometry x="620" y="210" width="30" height="60" as="geometry" />
@@ -2647,12 +2650,6 @@
           <mxGeometry x="-0.2102" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="mQ2n6NA9lhZwBmOUlgZ0-22" value="Motor Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
-          <mxGeometry x="780" y="210" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mQ2n6NA9lhZwBmOUlgZ0-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eOArgVNhv34Nyx51szAZ-1">
-          <mxGeometry x="740" y="210" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mQ2n6NA9lhZwBmOUlgZ0-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eOArgVNhv34Nyx51szAZ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
